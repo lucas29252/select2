@@ -1,5 +1,5 @@
 {
-  "name": "Select2",
+  "name": "select2",
   "description": "Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results.",
   "homepage": "https://select2.github.io",
   "author": {
@@ -34,7 +34,7 @@
     "src",
     "dist"
   ],
-  "version": "4.0.1-rc.1",
+  "version": "4.0.1",
   "jspm": {
     "main": "js/select2",
     "directories": {
@@ -58,5 +58,9 @@
     "grunt-jekyll": "^0.4.2",
     "grunt-sass": "^1.0.0",
     "grunt-saucelabs": "^8.6.0"
+  },
+  "dependencies": {
+    "almond": "~0.3.1",
+    "jquery-mousewheel": "~3.1.13"
   }
 }
